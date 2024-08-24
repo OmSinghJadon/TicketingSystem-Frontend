@@ -52,6 +52,7 @@ const CreateTicket = () => {
                 headers
             })
             console.log(formData)
+            navigate('/tickets')
         }catch(error){
             console.log(error)
         }
